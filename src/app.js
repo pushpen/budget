@@ -2,15 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css';
 import './styles/style.scss';
+import AppRouter from './routers/AppRouter';
 
-class Budget extends React.Component {
-    render() {
-        return (
-            <div>
-                <h1>Budget App1</h1>
-            </div>
-        )
-    }
-}
-
-ReactDOM.render(<Budget/>, document.getElementById('app'));
+ReactDOM.render(<AppRouter/>, document.getElementById('app'));
