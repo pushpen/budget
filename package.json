@@ -28,7 +28,7 @@
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "uuid": "^3.3.3",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
